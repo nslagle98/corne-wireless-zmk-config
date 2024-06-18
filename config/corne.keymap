@@ -17,7 +17,9 @@
             label = "SWITCHTAB";
         };
     };
-
+    &mt {
+        tapping-term-ms = <400>;
+    };
     keymap {
         compatible = "zmk,keymap";
 
